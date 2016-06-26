@@ -1,0 +1,48 @@
+{
+  "name": "cleanStripes",
+  "author": "drewatk",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Clean Stripes",
+    "uuid": "93488335-800c-4ef1-b473-6df3234b7cfd",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true 
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_ROBOTO_MEDIUM_38",
+          "file": "fonts/roboto-unhinted/Roboto-Medium.ttf"
+        },
+        {
+          "type": "font",
+          "name": "FONT_ROBOTO_THIN_20",
+          "file": "fonts/roboto-unhinted/Roboto-Thin.ttf"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "images/background.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND_BW",
+          "file": "images/background_bw.png"
+        }
+      ]
+    }
+  }
+}

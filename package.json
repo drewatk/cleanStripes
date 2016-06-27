@@ -35,12 +35,14 @@
         {
           "type": "bitmap",
           "name": "IMAGE_BACKGROUND",
-          "file": "images/background.png"
+          "file": "images/background.png",
+          "targetPlatforms": [ "basalt" ]
         },
         {
           "type": "bitmap",
           "name": "IMAGE_BACKGROUND_BW",
-          "file": "images/background_bw.png"
+          "file": "images/background_bw.png",
+          "targetPlatforms": [ "aplite" ]
         }
       ]
     }
